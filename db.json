@@ -1,109 +1,130 @@
 {
-"data":[
-   {
-      "symbol":"FB",
-      "qty":250,
-      "price":15.834120859077867,
-      "time":"12:05:39 PM"
-   
-},
-   {
-      "symbol":"GOOGL",
-      "qty":299,
-      "price":40.11767379434972,
-      "time":"1:11:20 AM"
-   
-},
-   {
-      "symbol":"AAPL",
-      "qty":222,
-      "price":29.617454518022186,
-      "time":"10:48:03 AM"
-   
-},
-   {
-      "symbol":"FB",
-      "qty":776,
-      "price":29.91042375059175,
-      "time":"12:56:00 PM"
-   
-},
-   {
-      "symbol":"FB",
-      "qty":469,
-      "price":23.01921638620008,
-      "time":"1:14:51 PM"
-   
-},
-   {
-      "symbol":"IBM",
-      "qty":710,
-      "price":26.58085277646159,
-      "time":"8:50:12 PM"
-   
-},
-   {
-      "symbol":"GOOGL",
-      "qty":835,
-      "price":16.23342286735128,
-      "time":"6:51:46 AM"
-   
-},
-   {
-      "symbol":"MSFT",
-      "qty":472,
-      "price":30.14936314268936,
-      "time":"10:50:24 PM"
-   
-},
-   {
-      "symbol":"GOOGL",
-      "qty":316,
-      "price":13.848528120128734,
-      "time":"5:44:47 PM"
-   
-},
-   {
-      "symbol":"GOOGL",
-      "qty":899,
-      "price":20.986980444098997,
-      "time":"9:04:45 AM"
-   
-},
-   {
-      "symbol":"GOOGL",
-      "qty":824,
-      "price":23.18662668155797,
-      "time":"12:36:31 PM"
-   
-},
-   {
-      "symbol":"AMZN",
-      "qty":544,
-      "price":41.724838696023845,
-      "time":"8:11:02 AM"
-   
-},
-   {
-      "symbol":"MSFT",
-      "qty":407,
-      "price":30.377882196420618,
-      "time":"11:23:21 PM"
-   
-},
-   {
-      "symbol":"GOOGL",
-      "qty":674,
-      "price":28.976956919618146,
-      "time":"7:25:55 AM"
-   
-},
-   {
-      "symbol":"FB",
-      "qty":513,
-      "price":26.151518840489125,
-      "time":"7:04:04 PM"
-   
-}
-]
+   "accounts":[
+      {
+         "id":1,
+         "accountName":"Build Wealth",
+         "currentBalance":78200,
+         "withdrawals":1566.834,
+         "deposits":3344.333
+      },
+      {
+         "id":2,
+         "accountName":"Retirement",
+         "currentBalance":5300,
+         "withdrawals":2500.834,
+         "deposits":432.333
+      },
+      {
+         "id":3,
+         "accountName":"Safety Net",
+         "currentBalance":240000,
+         "withdrawals":3005.834,
+         "deposits":5399.333
+      },
+      {
+         "id":4,
+         "accountName":"Safety Net 2",
+         "currentBalance":70000,
+         "withdrawals":755.834,
+         "deposits":7700
+      }
+   ],
+   "transactions":[
+      {
+         "id":1,
+         "accountName":"Build Wealth",
+         "partyName":"Eva Air",
+         "amount":22.22,
+         "endBalance":57773.44,
+         "type":"debit"
+      },
+      {
+         "id":2,
+         "accountName":"Build Wealth",
+         "partyName":"GM - Dividend",
+         "amount":570.00,
+         "endBalance":55123.44,
+         "type":"credit"
+      },
+      {
+         "id":3,
+         "accountName":"Safety Net",
+         "partyName":"Holiday Inn",
+         "amount":3322.22,
+         "endBalance":223.44,
+         "type":"debit"
+      },
+      {
+         "id":4,
+         "accountName":"Retirement",
+         "partyName":"IRS Tax Refund",
+         "amount":3321.22,
+         "endBalance":5222.44,
+         "type":"credit"
+      },
+      {
+         "id":5,
+         "accountName":"Safety Net",
+         "partyName":"Holiday Inn",
+         "amount":3322.22,
+         "endBalance":223.44,
+         "type":"debit"
+      },
+      {
+         "id":6,
+         "accountName":"Retirement",
+         "partyName":"IRS Tax Refund",
+         "amount":3321.22,
+         "endBalance":5222.44,
+         "type":"credit"
+      },
+      {
+         "id":7,
+         "accountName":"Build Wealth",
+         "partyName":"Eva Air",
+         "amount":22.22,
+         "endBalance":57773.44,
+         "type":"debit"
+      },
+      {
+         "id":8,
+         "accountName":"Build Wealth",
+         "partyName":"GM - Dividend",
+         "amount":570.00,
+         "endBalance":55123.44,
+         "type":"credit"
+      },
+      {
+         "id":9,
+         "accountName":"Safety Net",
+         "partyName":"Holiday Inn",
+         "amount":3322.22,
+         "endBalance":223.44,
+         "type":"debit"
+      },
+      {
+         "id":10,
+         "accountName":"Retirement",
+         "partyName":"IRS Tax Refund",
+         "amount":3321.22,
+         "endBalance":5222.44,
+         "type":"credit"
+      },
+      {
+         "id":11,
+         "accountName":"Safety Net 2",
+         "partyName":"Holiday Inn",
+         "amount":3322.22,
+         "endBalance":223.44,
+         "type":"debit"
+      },
+      {
+         "id":12,
+         "accountName":"Retirement",
+         "partyName":"IRS Tax Refund",
+         "amount":3321.22,
+         "endBalance":5222.44,
+         "type":"credit"
+      }
+   ]
 }
